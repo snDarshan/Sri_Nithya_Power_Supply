@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+@import "~owl.carousel/dist/assets/owl.carousel.min.css";
+@import "~owl.carousel/dist/assets/owl.theme.default.min.css";
+
 :root {
     --primary: #5B8C51;
     --secondary: #EDDD5E;
@@ -501,3 +504,4 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
+

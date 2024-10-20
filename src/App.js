@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -16,6 +16,8 @@ import './lib/animate/animate.css'
 import './lib/animate/animate.min.css'
 import './lib/lightbox/css/lightbox.css'
 import './lib/lightbox/css/lightbox.min.css'
+import './lib/owlcarousel/assets/owl.carousel.css'
+import './lib/owlcarousel/assets/owl.theme.default.css'
 
 
 
