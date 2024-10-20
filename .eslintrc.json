@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "jQuery": "readonly",
+    "WOW": "readonly",
+    "define": "readonly"
+  },
+  "extends": "eslint:recommended",
+  "ignorePatterns": ["src/lib/**"],
+  "rules": {}
+}
