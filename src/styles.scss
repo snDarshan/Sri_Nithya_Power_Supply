@@ -1,14 +1,11 @@
+/* Import customized Bootstrap */
+@import './scss/bootstrap';
 
-@import './scss/bootstrap.scss';  
-
-
+/* Import specific Bootstrap components if necessary (optional) */
 @import './scss/bootstrap/scss/forms/floating-labels';
-  
 
-
+/* Global body styling */
 body {
     margin: 0;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
 }
-
-

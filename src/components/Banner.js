@@ -1,11 +1,17 @@
-import React from 'react';
+
 import { Parallax } from 'react-parallax';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import banner1 from '../img/banner-1.jpg'; 
 import banner2 from '../img/banner-2.jpg'; 
 import banner from '../img/banner.jpg'; 
+import '../lib/wow/wow.min.js'; 
+
 
 const Banner = () => {
+    useEffect(() => {
+        new WOW().init();
+    }, []);
     return (
         <Parallax
             bgImage={banner}
